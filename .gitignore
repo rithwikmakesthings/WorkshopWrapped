@@ -1,0 +1,24 @@
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+.idea/
+
+# never commit credentials
+src/secrets.h
+
+# build artefacts
+*.bin
+*.elf
+*.hex
+*.map
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
